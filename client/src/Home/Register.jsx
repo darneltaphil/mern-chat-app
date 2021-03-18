@@ -11,29 +11,29 @@ import * as Yup from 'yup';
 import history from '../Utilities/history';
 import { useRegister } from '../Services/authenticationService';
 
-const useStyles = makeStyles(theme => ({
-    paper: {
-        marginTop: theme.spacing(8),
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-    },
-    form: {
-        width: '100%',
-        marginTop: theme.spacing(1),
-    },
-    submit: {
-        margin: theme.spacing(3, 0, 2),
-    },
-}));
+// const useStyles = makeStyles(theme => ({
+//     paper: {
+//         marginTop: theme.spacing(8),
+//         display: 'flex',
+//         flexDirection: 'column',
+//         alignItems: 'center',
+//     },
+//     form: {
+//         width: '100%',
+//         marginTop: theme.spacing(1),
+//     },
+//     submit: {
+//         margin: theme.spacing(3, 0, 2),
+//     },
+// }));
 
 const Register = props => {
     const register = useRegister();
 
-    const classes = useStyles();
+    // const classes = useStyles();
 
     return (
-        <div className={classes.paper}>
+        <div>
             <Grid container>
                 <Grid item>
                     <Typography component="h1" variant="h5" align="center">
@@ -96,11 +96,11 @@ const Register = props => {
                         }) => (
                             <form
                                 onSubmit={handleSubmit}
-                                className={classes.form}
+                                // className={classes.form}
                             >
                                 <TextField
                                     id="name"
-                                    className={classes.textField}
+                                    // className={classes.textField}
                                     name="name"
                                     label="Name"
                                     fullWidth={true}
@@ -115,7 +115,7 @@ const Register = props => {
 
                                 <TextField
                                     id="username"
-                                    className={classes.textField}
+                                    // className={classes.textField}
                                     name="username"
                                     label="Username"
                                     fullWidth={true}
@@ -135,7 +135,7 @@ const Register = props => {
 
                                 <TextField
                                     id="password"
-                                    className={classes.textField}
+                                    // className={classes.textField}
                                     name="password"
                                     label="Password"
                                     fullWidth={true}
@@ -156,7 +156,7 @@ const Register = props => {
 
                                 <TextField
                                     id="password2"
-                                    className={classes.textField}
+                                    // className={classes.textField}
                                     name="password2"
                                     label="Confirm Password"
                                     fullWidth={true}
@@ -182,7 +182,7 @@ const Register = props => {
                                     fullWidth={true}
                                     variant="contained"
                                     color="primary"
-                                    className={classes.submit}
+                                    // className={classes.submit}
                                 >
                                     Register
                                 </Button>
