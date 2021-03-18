@@ -11,14 +11,14 @@ The backend is built with Express.js and Node.js.
 Real-time message broadcasting is developed using [Socket.IO](https://socket.io/).
 
 ### Features
-<b>Two preset Application Users</b>
+<b>Two preset Application Users</b><br/>
 *user1:*<br/>
 username: kaff<br/>
 password: kaffui<br/>
 
 *user2:*<br/>
 username: Kofi<br/>
-password: Etb6W7i63XnTezB<br/>
+password: Etb6W7i63XnTezB<br/><br/>
 This application provides users with the following features
 <br/>
 * At first Authentication using **JWT Tokens** : but I was asked not to use my own auth. So i tried to integrate auth0
