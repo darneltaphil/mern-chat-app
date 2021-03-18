@@ -3,7 +3,7 @@
 #### Introduction
 
 This repo consists of a **Chat Application** built with the MERN stack. 
-I am trying to modify the code to suit a job interview instructions
+I had this code sometimes back when I was learning MERN Stack. I  tried to modify the code to suit a job interview instructions
 <br/><br/>
 This is a full-stack chat application that can be up and running with just a few steps. 
 Its frontend is built with [Material UI](https://material-ui.com/) running on top of React.
@@ -11,7 +11,14 @@ The backend is built with Express.js and Node.js.
 Real-time message broadcasting is developed using [Socket.IO](https://socket.io/).
 
 ### Features
+<b>Two preset Application Users</b>
+*user1:*<br/>
+username: kaff<br/>
+password: kaffui<br/>
 
+*user2:*<br/>
+username: Kofi<br/>
+password: Etb6W7i63XnTezB<br/>
 This application provides users with the following features
 <br/>
 * At first Authentication using **JWT Tokens** : but I was asked not to use my own auth. So i tried to integrate auth0
@@ -36,9 +43,4 @@ You can have this application up and running with just a few steps because it ha
 * Database connections in the backend are handled using the [Mongoose ORM](https://mongoosejs.com/)
 * Code quality is ensured using (ESLint)[https://eslint.org/]
 
-### Disclaimer
-
-This repository contains beginner level code and might contain some things I wish to change or remove. I have not maintained this for quite some time, but now I am trying to slowly fix these issues. You are welcome to open issues if you find any and I will accept PR's as well.
-<br/><br/>
-
-Cheers 💻 🍺 🔥 🙌
+Thank you
